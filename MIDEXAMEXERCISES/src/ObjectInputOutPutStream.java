@@ -2,6 +2,7 @@ import java.io.*;
 
 public class ObjectInputOutPutStream {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
+        //my name is miretu jaleta i am a fourth year software engineering stujdent at jimma institute of technology
         //writing parts of object into the file is called serializaion and reading whole object from file is called decerilization
         FileOutputStream fos = new FileOutputStream("file4.txt");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
